@@ -1,0 +1,35 @@
+:root {
+  /* Dark Mode Colors */
+  --color-primary-dark: #1a237e;
+  --color-cosmic-blue: #0d47a1;
+  --color-rich-purple: #4a148c;
+
+  --color-accent-teal: #00bcd4;
+  --color-ethereal-lavender: #b39ddb;
+  --color-warm-gold: #ffd700;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cccccc;
+  --color-bg-dark: #121212;
+
+  /* Light Mode Colors */
+  --color-bg-light: #f5f5f5;
+  --color-text-light-primary: #222222;
+  --color-text-light-secondary: #555555;
+
+  /* Typography */
+  --font-heading: 'Montserrat', 'Nunito', 'Azonix', sans-serif;
+  --font-body: 'Inter', 'Open Sans', 'Lato', sans-serif;
+}
+
+/* Dark mode theme */
+[data-theme="dark"] {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+}
+
+/* Light mode theme */
+[data-theme="light"] {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light-primary);
+}
